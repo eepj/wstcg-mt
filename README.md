@@ -1,11 +1,8 @@
 # WS TCG Card Text Translator
 A Japanese-English machine translation model specifically trained for translating card text from the Weiss Schwarz (WS) Trading Card Game, fine-tuned on [Helsinki-NLP/opus-mt-ja-en](https://huggingface.co/Helsinki-NLP/opus-mt-ja-en).
 
-## Hugging Face Space Demo
-Check out the demo at [https://huggingface.co/spaces/eepj/wstcg-mt](https://huggingface.co/spaces/eepj/wstcg-mt).
-
 ## Hugging Face Hub Model
-Check out the model at https://huggingface.co/eepj/wstcg-mt-ja-en.
+Check out the model at [https://huggingface.co/eepj/wstcg-mt-ja-en](https://huggingface.co/eepj/wstcg-mt-ja-en).
 
 ## Dataset
 ### Official WS Card List
