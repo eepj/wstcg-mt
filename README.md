@@ -4,6 +4,20 @@ A Japanese-English machine translation model specifically trained for translatin
 ## Hugging Face Hub Model
 Check out the model at [https://huggingface.co/eepj/wstcg-mt-ja-en](https://huggingface.co/eepj/wstcg-mt-ja-en).
 
+## Gradio App
+### Hugging Face Space Demo
+Check out the demo at [https://huggingface.co/spaces/eepj/wstcg-mt](https://huggingface.co/spaces/eepj/wstcg-mt).
+> [!Warning]
+> Expect slow inference.
+
+### Running Locally
+Clone the Hugging Face Space repository and run `app.py`.
+```bash
+git clone https://huggingface.co/spaces/eepj/wstcg-mt
+cd wstcg-mt
+python3 app.py
+```
+
 ## Dataset
 ### Official WS Card List
 * Japanese-English parallel card text comprising 6000+ card text retrieved from the offical card list.
@@ -52,14 +66,6 @@ Check out the model at [https://huggingface.co/eepj/wstcg-mt-ja-en](https://hugg
 |Google Translate|[CONT] If you have 4 or more characters in \<TRAIT\>, you can play this card from your hand without meeting the color conditions, and the level of this card in your hand becomes -1.|0.26561|0.53877|
 |GPT-3.5|[Permanent] If you have 4 or more cards with the \<TRAIT\> trait, you can play this card from your hand without meeting the color condition, and reduce the level of this card in your hand by 1.|0.24213|0.48925|
 |opus-mt-ja-en|If there are more than four characters in your \<TRAIT\> card, this card can be played from your hand with no color conditions, and you can see the level of this card in your hand is -1.|0.22006|0.51034|
-
-## Running Gradio App Locally
-Clone the Hugging Face space repository and run `app.py`.
-```bash
-git clone https://huggingface.co/spaces/eepj/wstcg-mt
-cd wstcg-mt
-python3 app.py
-```
 
 ## References
 **Helsinki-NLP/opus-mt-ja-en**
