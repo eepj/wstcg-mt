@@ -53,6 +53,14 @@ Check out the model at [https://huggingface.co/eepj/wstcg-mt-ja-en](https://hugg
 |GPT-3.5|[Permanent] If you have 4 or more cards with the \<TRAIT\> trait, you can play this card from your hand without meeting the color condition, and reduce the level of this card in your hand by 1.|0.24213|0.48925|
 |opus-mt-ja-en|If there are more than four characters in your \<TRAIT\> card, this card can be played from your hand with no color conditions, and you can see the level of this card in your hand is -1.|0.22006|0.51034|
 
+## Running Gradio App Locally
+Clone the Hugging Face space repository and run `app.py`.
+```bash
+git clone https://huggingface.co/spaces/eepj/wstcg-mt
+cd wstcg-mt
+python3 app.py
+```
+
 ## References
 **Helsinki-NLP/opus-mt-ja-en**
 <br>
