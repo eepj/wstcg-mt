@@ -1,14 +1,14 @@
 # WS TCG Card Text Translator
 A Japanese-English machine translation model specifically trained for translating card text from the Weiss Schwarz (WS) Trading Card Game, fine-tuned on [Helsinki-NLP/opus-mt-ja-en](https://huggingface.co/Helsinki-NLP/opus-mt-ja-en).
 
-## Hugging Face Hub Model
-Check out the model at [https://huggingface.co/eepj/wstcg-mt-ja-en](https://huggingface.co/eepj/wstcg-mt-ja-en).
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-green)](https://huggingface.co/eepj/wstcg-mt-ja-en)
 
 ## Gradio App
 ### Hugging Face Space Demo
-Check out the demo at [https://huggingface.co/spaces/eepj/wstcg-mt](https://huggingface.co/spaces/eepj/wstcg-mt).
 > [!Warning]
 > Expect slow inference.
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-green)](https://huggingface.co/spaces/eepj/wstcg-mt)
 
 ### Running Locally
 Clone the Hugging Face Space repository and run `app.py`.
@@ -32,8 +32,8 @@ python3 app.py
 ### Additional Tokens
 |Token Type|Additional Tokens|
 |----------|-----------------|
-|Named Entity Placeholder|\<TRAIT\>, \<NAME\>|
-|Trigger Icon Placeholder|\<SOUL\>, \<CHOICE\>, \<TREASURE\>, \<SALVAGE\>, \<STANDBY\>,<br> \<GATE\>, \<BOUNCE\>, \<STOCK\>, \<SHOT\>, \<DRAW\>|
+|Named Entity Placeholders|\<TRAIT\>, \<NAME\>|
+|Trigger Icon Placeholders|\<SOUL\>, \<CHOICE\>, \<TREASURE\>, \<SALVAGE\>, \<STANDBY\>,<br> \<GATE\>, \<BOUNCE\>, \<STOCK\>, \<SHOT\>, \<DRAW\>|
 |Keywords|【, 】, AUTO, ACT, CONT, COUNTER, CLOCK, トリガー|
 
 ### Hardware
