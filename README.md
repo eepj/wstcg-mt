@@ -1,17 +1,18 @@
 # WS TCG Card Text Translator
 A Japanese-English machine translation model specifically trained for translating card text from the Weiss Schwarz (WS) Trading Card Game, fine-tuned on [Helsinki-NLP/opus-mt-ja-en](https://huggingface.co/Helsinki-NLP/opus-mt-ja-en).
 
-[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-green)](https://huggingface.co/eepj/wstcg-mt-ja-en)
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/eepj/wstcg-mt-ja-en)
 
 ## Gradio App
-### Hugging Face Space Demo
+### Hugging Face Spaces
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/eepj/wstcg-mt)
+
+Check out the Gradio app on Hugging Face Spaces [https://huggingface.co/spaces/eepj/wstcg-mt](https://huggingface.co/spaces/eepj/wstcg-mt).
 > [!Warning]
 > Expect slow inference.
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-green)](https://huggingface.co/spaces/eepj/wstcg-mt)
-
 ### Running Locally
-Clone the Hugging Face Space repository and run `app.py`.
+Clone the Hugging Face Spaces repository and run `app.py`.
 ```bash
 git clone https://huggingface.co/spaces/eepj/wstcg-mt
 cd wstcg-mt
